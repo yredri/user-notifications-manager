@@ -144,7 +144,7 @@ curl -X POST http://localhost:8080/users -H "Authorization: Bearer onlyvim2024" 
 ```bash
 curl -X PUT http://localhost:8080/users -H "Authorization: Bearer onlyvim2024" -H "Content-Type: application/json" -d '{
   "email": "newuser@example.com",
-  "preferences": { "sms": true }
+  "preferences": { "email": false, "sms": true }
 }'
 ```
 
@@ -208,13 +208,3 @@ To add a new notification channel:
 2. Implement `NotificationStrategy`
 3. Inject it into `NotificationManager`
 4. Add it to the preferences model (if needed)
-
----
-
-## Summary
-
-- Clean architecture, SOLID principles
-- Modular, testable, and scalable
-- Fully containerized
-- Environment-driven config
-- Ready for production with minor extensions (e.g., DB, queue, metrics)

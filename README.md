@@ -108,11 +108,6 @@ Build and run:
 docker-compose up --build
 ```
 
-Services:
-
-- Notifications Manager: http://localhost:8080  
-- Mock Notification API: http://localhost:5001
-
 To stop:
 
 ```bash

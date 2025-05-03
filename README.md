@@ -71,11 +71,13 @@ This is handled by a custom middleware using the `AppConfigService`.
 ## Environment Variables
 
 Stored in `.env`, accessed via `AppConfigService`.
+Copy .env.example file to .env and fill in your actual values
 
 ```env
-EMAIL_API_URL=http://notification-service:5001/send-email
-SMS_API_URL=http://notification-service:5001/send-sms
-AUTH_TOKEN=onlyvim2024
+EMAIL_API_URL=http://example.com/send-email
+SMS_API_URL=http://example.com/send-sms
+AUTH_TOKEN=your-auth-token-here
+PORT=8080
 ```
 
 ---

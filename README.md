@@ -116,7 +116,7 @@ docker-compose down
 
 ---
 
-## ▶️ Running Locally
+## Running Locally
 
 ```bash
 npm install
